@@ -1,0 +1,185 @@
+*{
+    padding:0;
+    margin:0;
+}
+main{
+    margin-top:6em;
+    margin-bottom: 6em;
+}
+
+.contenido{
+    margin-top:26vh;    
+}
+
+.logo_card{
+    width: 3em;
+    height: 3em;
+    border-radius: 40px;
+}
+
+.logo_card2{
+    width: 4.5em;
+    height: 4.5em;
+    border-radius: 40px;
+}
+
+.logo_footer{
+    width: 2em;
+    height: 2em;
+    border-radius: 40px;
+}
+
+.img_card{
+    width: 7.8em;
+    height: 6.5em;
+}
+
+.row_card{
+    justify-content: center;
+}
+
+.titulos{
+    font-size: 0.8em;
+}
+.bg{
+    margin:0;
+    padding:0;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    background-repeat:no-repeat;
+    background-size:200%;
+    filter:blur(10px);
+    background-attachment:fixed;
+    z-index:-1;
+}
+.bg-template{
+    margin:0;
+    padding:0;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:250vh;
+    position:absolute;
+    background-repeat:no-repeat;
+    background-size:230%;
+    filter:blur(10px);
+    background-attachment:fixed;
+    z-index:-1;
+}
+.footer-index{
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.icon-rrss{
+    font-size:1.2em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+.footer-col{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+label {
+    width: 100%;
+}
+
+.card-input-element {
+    display: none;
+}
+
+.card-input {
+    margin: 10px;
+    padding: 00px;
+    height: 12em;
+}
+
+.fondo{
+    background: blue; font-weight: bold; padding: 15px; border-top:2px solid #111010; border-bottom:2px solid #0e0d0d;
+}
+
+.card-input:hover {
+    cursor: pointer;
+}
+
+.card-input-element:checked + .card-input {
+     box-shadow: 0 0 1px 1px #2ecc71;
+     background-color: lightblue;
+ }
+
+
+.submenu{
+    margin-top:5em;
+}
+
+@media(min-width:760px){
+    main{
+        margin-top:8em;
+    }
+    .logo_card{
+        width: 4em;
+        height: 4em;
+    }   
+
+    .row_card{
+        justify-content:  start;
+    }
+
+    .titulos{
+        font-size: 1.8em;
+    }
+    .bg{
+        background-size:100%;
+        height:100vh;
+    }
+    .bg-template{
+        background-size: 100%;
+        height: 135vh;
+    }
+    
+    .footer-index{
+        margin-top:10.5em;
+    }
+    
+    .footer-col{
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .img_card{
+        width: 9em;
+        height: 7.5em;
+    }
+
+    .icon-rrss{
+        font-size:1.7em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+    
+    .card-input {
+        height: 9em;
+    }
+    
+    .submenu{
+    margin-top:8em;
+    }
+}
+
+
+
+@media screen and (max-width: 380px) {
+     table {
+       display: block;
+       overflow-x: auto;
+     }
+}
