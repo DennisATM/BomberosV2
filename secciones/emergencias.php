@@ -11,10 +11,10 @@
     // use Abraham\TwitterOAuth\TwitterOAuth; funciona
      
     //definiendo keys
-    // define('CONSUMER_KEY', 'HDiQqzArWbf6FpbtkH9aDMoMH');
-    // define('CONSUMER_SECRET', '7HrRcVjmcYv0Y0MAzriMWrJ9MvYqIeH5xB9DrDwDXaMt0vfRIQ');
-    // define('ACCESS_TOKEN', '1604831496807874561-5pY2GARDvkLxfRFWm0ucG8BQdUqTHm');
-    // define('ACCESS_TOKEN_SECRET', 'dayZvPHO0R5cfTbkqZv3TqOPR6RILRLk4BXUe0oQCPpxi');
+    // define('CONSUMER_KEY', 'your consumer key');
+    // define('CONSUMER_SECRET', 'your consumer secret');
+    // define('ACCESS_TOKEN', 'your access token');
+    // define('ACCESS_TOKEN_SECRET', 'your access token secret');
     
 
     if(isset($_GET['cerrar_sesion'])){
